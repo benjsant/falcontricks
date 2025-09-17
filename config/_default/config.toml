@@ -1,0 +1,109 @@
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+  pagerSize = 10
+
+[imaging]
+  anchor = "Center"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[related]
+  threshold = 0
+  toLower = false
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+
+  [[related.indices]]
+    name = "series"
+    weight = 50
+
+  [[related.indices]]
+    name = "authors"
+    weight = 20
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+  [[related.indices]]
+    applyFilter = false
+    name = "fragmentrefs"
+    type = "fragments"
+    weight = 10
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    weight = 1
+
+    [languages.fr.taxonomy]
+      tag = "Étiquettes"
+
+    [languages.fr.menu]
+      [[languages.fr.menu.main]]
+        identifier = "tutos"
+        name = "Tutos"
+        url = "/tutos/"
+        weight = 10
+
+      [[languages.fr.menu.main]]
+        identifier = "projets"
+        name = "Projets"
+        url = "/projets/"
+        weight = 20
+
+      [[languages.fr.menu.main]]
+        identifier = "articles"
+        name = "Articles"
+        url = ""
+        weight = 30
+
+      [[languages.fr.menu.main]]
+        parent = "articles"
+        name = "Linux"
+        url = "/categories/linux/"
+        weight = 31
+
+      [[languages.fr.menu.main]]
+        parent = "articles"
+        name = "Windows"
+        url = "/categories/windows/"
+        weight = 32
+
+      [[languages.fr.menu.main]]
+        parent = "articles"
+        name = "Android"
+        url = "/categories/android/"
+        weight = 33
+
+      [[languages.fr.menu.main]]
+        identifier = "a-propos"
+        name = "À propos"
+        url = "/about/"
+        weight = 40

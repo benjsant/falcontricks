@@ -1,0 +1,101 @@
+enableProfileLayout = true
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = false
+replyByEmail = false
+disableImageOptimization = false
+disableTextInHeader = true
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v8.next.forgejo.org"
+logo = "img/falcon_2.png"
+
+[header]
+  layout = "basic"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "background"
+  homepageImage = "img/background_2.png"
+  showRecent = true
+  showRecentItems = 5
+  showMoreLink = false
+  showMoreLinkDest = "/tutos/"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = false
+
+[article]
+  showDate = true
+  showAuthor = true
+  showReadingTime = true
+  showTableOfContents = true
+  showWordCount = false
+  showDraftLabel = true
+  showHeadingAnchors = true
+  showPagination = true
+  showDateOnlyInArticle = false
+  showDateUpdated = false
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = false
+  showEdit = false
+  editAppendPath = true
+  seriesOpened = false
+  showTaxonomies = false
+  showAuthorsBadges = false
+  invertPagination = false
+
+[list]
+  showHero = true
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showBreadcrumbs = false
+  showSummary = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  showCards = true
+  orderByWeight = false
+  groupByYear = true
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  cardView = false
+
+[term]
+  showHero = true
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  groupByYear = false
+  cardView = false
+  cardViewScreenWidth = false
+
+[author]
+  name = "Falcontricks"
+  headline = "osez l’envol vers de nouveaux horizons numériques"
+  bio = "Linux depassera Windows, un jour ..."
+  links = [
+    { email = "mailto:santrissebenjamin@gmail.com"},
+    { github = "https://github.com/benjsant/" },
+    { linkedin = "https://www.linkedin.com/in/benjamin-santrisse/" },
+  ]

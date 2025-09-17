@@ -1,0 +1,12 @@
+baseURL = "https://benjitricks.example.com/"
+languageCode = "fr"
+title = "BenjiTricks"
+theme = "blowfish"
+defaultContentLanguage = "fr"
+canonifyURLs = true
+enableRobotsTXT = true
+enableEmoji = true
+summaryLength = 0
+
+# Inclusion des autres fichiers
+config = ["config.toml", "params.toml"]
