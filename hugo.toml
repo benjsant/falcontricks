@@ -1,3 +1,14 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://falcontricks.example.com/"
+languageCode = "fr"
+title = "FalconTricks"
+theme = "blowfish"
+defaultContentLanguage = "fr"
+canonifyURLs = true
+enableRobotsTXT = true
+enableEmoji = true
+summaryLength = 0
+
+# Inclusion des autres fichiers
+config = ["config.toml", "params.toml"]
+
+

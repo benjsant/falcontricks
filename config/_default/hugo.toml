@@ -1,6 +1,6 @@
-baseURL = "https://benjitricks.example.com/"
+baseURL = "https://falcontricks.example.com/"
 languageCode = "fr"
-title = "BenjiTricks"
+title = "FalconTricks"
 theme = "blowfish"
 defaultContentLanguage = "fr"
 canonifyURLs = true

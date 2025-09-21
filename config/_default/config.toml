@@ -62,7 +62,7 @@
     languageName = "Français"
     weight = 1
 
-    [languages.fr.taxonomy]
+    [languages.fr.taxonomies]
       tag = "Étiquettes"
 
     [languages.fr.menu]
@@ -87,19 +87,19 @@
       [[languages.fr.menu.main]]
         parent = "articles"
         name = "Linux"
-        url = "/categories/linux/"
+        url = "/articles/linux/"
         weight = 31
 
       [[languages.fr.menu.main]]
         parent = "articles"
         name = "Windows"
-        url = "/categories/windows/"
+        url = "/articles/windows/"
         weight = 32
 
       [[languages.fr.menu.main]]
         parent = "articles"
         name = "Android"
-        url = "/categories/android/"
+        url = "/articles/android/"
         weight = 33
 
       [[languages.fr.menu.main]]

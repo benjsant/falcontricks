@@ -1,17 +1,9 @@
 #!/bin/bash
 set -e
 
-echo "🚀 Installation du thème Blowfish avec Hugo Modules..."
+echo "🔄 Initialisation du dépôt..."
+git submodule update --init --recursive
 
-# Vérifie que Hugo est installé
-if ! command -v hugo &> /dev/null
-then
-    echo "❌ Hugo n'est pas installé. Installe-le d'abord."
-    exit 1
-fi
+echo "🚀 Installation terminée, tu peux lancer Hugo :"
+echo "    hugo serve"
 
-# Récupère le thème Blowfish
-hugo mod get github.com/nunocoracao/blowfish
-hugo mod tidy
-
-echo "✅ Thème Blowfish installé avec succès !"

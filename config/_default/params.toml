@@ -1,6 +1,6 @@
 enableProfileLayout = true
 colorScheme = "blowfish"
-defaultAppearance = "light"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false
@@ -9,7 +9,9 @@ disableImageOptimization = false
 disableTextInHeader = true
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
-logo = "img/falcon_2.png"
+logo = "img/falcon.png"
+defaultFeaturedImage = "/img/background.png"
+defaultBackgroundImage = "/img/background.png"
 
 [header]
   layout = "basic"
@@ -23,18 +25,16 @@ logo = "img/falcon_2.png"
 
 [homepage]
   layout = "background"
-  homepageImage = "img/background_2.png"
+  homepageImage = "img/background.png"
   showRecent = true
   showRecentItems = 5
   showMoreLink = false
-  showMoreLinkDest = "/tutos/"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = false
 
 [article]
   showDate = true
-  showAuthor = true
   showReadingTime = true
   showTableOfContents = true
   showWordCount = false
@@ -70,8 +70,10 @@ logo = "img/falcon_2.png"
   cardView = true
   cardViewScreenWidth = false
   constrainItemsWidth = false
+  heroStyle = "background"
 
-[taxonomy]
+
+[taxonomies]
   showTermCount = true
   showHero = true
   showBreadcrumbs = false
@@ -93,7 +95,6 @@ logo = "img/falcon_2.png"
 [author]
   name = "Falcontricks"
   headline = "osez l’envol vers de nouveaux horizons numériques"
-  bio = "Linux depassera Windows, un jour ..."
   links = [
     { email = "mailto:santrissebenjamin@gmail.com"},
     { github = "https://github.com/benjsant/" },
