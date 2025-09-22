@@ -57,4 +57,4 @@ Ce site est construit avec le générateur de site statique **[Hugo](https://goh
 J’ai choisi cette combinaison pour sa **rapidité**, sa **légèreté** et sa **flexibilité**, ce qui me permet de me concentrer sur le contenu tout en gardant une base technique moderne et évolutive.  
 
 ---
-💬 N’hésitez pas à me contacter ou à me suivre via les réseaux listés !
+💬 N’hésitez pas à me contacter ou à me suivre via les réseaux !
