@@ -3,7 +3,7 @@ title: "MX Linux Toolbox : une boîte à outils portable pour réparer et tester
 date: 2025-09-17
 draft: false
 categories: ["Linux", "Projets"]
-tags: ["MX Linux", "Toolbox", "Live USB", "Sauvegarde", "Dualboot"]
+tags: ["MX Linux", "Toolbox", "Live USB", "Sauvegarde"]
 summary: "MX Linux Toolbox est un projet personnel visant à créer une ISO live portable, basée sur MX Linux, pour effectuer des sauvegardes, réparer un dualboot et réaliser des tests réseau."
 ---
 

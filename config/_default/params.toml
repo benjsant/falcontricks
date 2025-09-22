@@ -19,7 +19,7 @@ defaultBackgroundImage = "/img/background.png"
 [footer]
   showMenu = true
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
 
@@ -92,11 +92,4 @@ defaultBackgroundImage = "/img/background.png"
   cardView = false
   cardViewScreenWidth = false
 
-[author]
-  name = "Falcontricks"
-  headline = "osez l’envol vers de nouveaux horizons numériques"
-  links = [
-    { email = "mailto:santrissebenjamin@gmail.com"},
-    { github = "https://github.com/benjsant/" },
-    { linkedin = "https://www.linkedin.com/in/benjamin-santrisse/" },
-  ]
+

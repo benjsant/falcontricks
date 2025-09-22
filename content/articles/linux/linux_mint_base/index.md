@@ -3,7 +3,7 @@ title: "Linux Mint : la meilleure base pour explorer l’univers Linux ?"
 date: 2025-09-16
 draft: false
 categories: ["Linux", "Débutants"]
-tags: ["Linux Mint", "Ubuntu", "Fedora", "Découverte"]
+tags: ["Linux", "Ubuntu"]
 summary: "Linux Mint est l’une des distributions Linux les plus accessibles et complètes pour débuter. Découvrons pourquoi elle représente une excellente porte d’entrée dans l’univers Linux."
 ---
 
