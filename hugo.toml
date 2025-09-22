@@ -1,4 +1,4 @@
-baseURL = "https://falcontricks.example.com/"
+baseURL = "http://localhost:1313/"
 languageCode = "fr"
 title = "FalconTricks"
 theme = "blowfish"
