@@ -9,8 +9,6 @@ summary: "Linux Mint est l’une des distributions Linux les plus accessibles et
 
 # Linux Mint : la meilleure base pour explorer l’univers Linux ? 🐧✨
 
-![Bureau Linux Mint Cinnamon](/images/linux-mint-cinnamon.png)
-
 Lorsque l’on quitte Windows pour la première fois, le monde Linux peut paraître vaste et complexe. Pourtant, il existe une distribution qui joue le rôle de guide idéal pour débuter en toute sérénité : **Linux Mint**.  
 
 Créée en 2006 et basée sur Ubuntu (ou Debian selon l’édition choisie), Linux Mint a su conquérir un large public grâce à sa simplicité, sa stabilité et son souci du confort utilisateur.

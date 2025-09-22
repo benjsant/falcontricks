@@ -71,7 +71,7 @@ Dans la version toolbox, on retrouve :
 ## ❌ Limites
 
 - Pas prévu pour un usage quotidien (outil de dépannage).  
-- Nécessite une clé USB d’au moins 4 Go.  
+- Nécessite une clé USB d’au moins 8 Go.  
 - L’interface peut sembler un peu austère pour un débutant.  
 
 ---
@@ -81,4 +81,7 @@ Dans la version toolbox, on retrouve :
 **MX Linux Toolbox est un projet personnel pensé comme une trousse de secours numérique.**  
 Une clé USB, et vous avez sous la main de quoi : sauvegarder, réparer et diagnostiquer rapidement un ordinateur.  
 
-👉 Dans un prochain article, nous verrons comment créer soi-même une ISO personnalisée avec **MX Snapshot**, étape par étape.
+Découvrez le projet et explorez le code sur GitHub :  
+
+- [DistroScript](https://github.com/benjsant/mx_linux_script_iso_toolbox)  
+

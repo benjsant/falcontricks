@@ -76,6 +76,10 @@ Exemple de menu simplifié :
 ## 🗣️ Conclusion
 
 Distroscript est un petit projet qui rend l’usage de Distrobox encore plus pratique.  
-Il permet de créer en quelques minutes des environnements adaptés à différents usages, sans avoir à répéter les mêmes commandes.  
+Il permet de créer en quelques minutes des environnements adaptés à différents usages, sans avoir à répéter les mêmes commandes.   
 
-👉 Dans de futurs articles, nous pourrons détailler comment **adapter Distroscript à vos propres besoins** et comment l’étendre avec encore plus d’options.  
+## En savoir plus
+
+Découvrez le projet et explorez le code sur GitHub :  
+
+- [DistroScript](https://github.com/benjsant/distroscript)  
