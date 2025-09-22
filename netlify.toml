@@ -1,7 +1,13 @@
+# netlify.toml
+# Configuration pour déployer un site Hugo (Blowfish) sur Netlify
+
 [build]
-  command = "hugo --gc --minify"
-  publish = "public"
+  command = "hugo --gc --minify"      # commande pour générer le site
+  publish = "public"                  # dossier généré par Hugo à publier
+  # base = ""                         # laisse vide si Hugo est à la racine
+  # functions = "netlify/functions"   # optionnel, pas nécessaire ici
 
 [context.production.environment]
-  HUGO_VERSION = "v0.147.8" 
-  HUGO_ENV = "production"
+  HUGO_VERSION = "0.147.8"           # version de Hugo à utiliser
+  HUGO_ENV = "production"            # mode production pour Hugo
+
